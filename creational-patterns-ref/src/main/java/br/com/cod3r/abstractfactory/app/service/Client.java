@@ -8,8 +8,8 @@ import br.com.cod3r.abstractfactory.app.service.services.UserService;
 public class Client {
 
 	public static void main(String[] args) {
-		ServicesAbstractFactory factory = new EJBAbstractFactory();
-//		ServicesAbstractFactory factory = new RestAbstractFactory();
+		//ServicesAbstractFactory factory = new EJBAbstractFactory();
+		ServicesAbstractFactory factory = new RestAbstractFactory();
 		
 		UserService userService = factory.getUserService();
 		userService.save("Jhon");
