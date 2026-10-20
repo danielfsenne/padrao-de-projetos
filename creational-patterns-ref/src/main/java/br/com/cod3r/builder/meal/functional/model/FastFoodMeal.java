@@ -4,11 +4,11 @@ import br.com.cod3r.builder.meal.functional.model.FastFoodMeal;
 
 public class FastFoodMeal {
 
-	final private String drink;
-	final private String main;
-	final private String side;
-	final private String dessert;
-	final private String gift;
+	final private final  String drink;
+	final private final String main;
+	final private final String side;
+	final private final String dessert;
+	final private final String gift;
 	
 	public FastFoodMeal(String drink, String main, String side, String dessert, String gift) {
 		this.drink = drink;
