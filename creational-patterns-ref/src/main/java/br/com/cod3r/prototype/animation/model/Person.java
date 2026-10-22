@@ -39,6 +39,7 @@ public class Person implements Cloneable {
 
 	@Override
 	public Object clone() throws CloneNotSupportedException {
+		Person clone = new Person(line1, line2, line3, line4);
 		return super.clone();
 	}
 }
